@@ -48,8 +48,8 @@ The high accuracy is expected, AQI Category is mathematically derived from pollu
 
 ## 🚀 How to Run Locally
 1. Clone the repository
-bashgit clone https://github.com/marwakhan-sa/Air-Quailty-Index-Predictor-Oakistan-.git
-cd pakistan-aqi-predictor
+bashgit clone https://github.com/marwakhan-sa/Air-Quailty-Index-Predictor-Pakistan-.git
+cd Air-Quailty-Index-Predictor-Pakistan-
 2. Install dependencies
 bashpip3 install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
 3. Run the app
