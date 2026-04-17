@@ -6,7 +6,13 @@ Air pollution is a serious health crisis in Pakistan. Cities like Lahore, Karach
 
 ## 🎯 What It Does
 Enter pollutant levels (CO, Ozone, NO2, PM2.5) and the app instantly predicts the air quality category from Good to Hazardous along with a health recommendation.
-CategoryMeaning🌿 GoodAir is safe for everyone🌤 ModerateAcceptable for most people⚠️ Unhealthy for Sensitive GroupsChildren & elderly should take care😷 UnhealthyEveryone may experience health effects🚨 Very UnhealthyAvoid outdoor activity☠️ HazardousEmergency conditions — stay indoors
+CategoryMeaning:
+🌿 Good: Air is safe for everyone
+🌤 Moderate: Acceptable for most people
+⚠️ Unhealthy for Sensitive Groups: Children & elderly should take care
+😷 Unhealthy: Everyone may experience health effects
+🚨 Very Unhealthy: Avoid outdoor activity
+☠️ Hazardous: Emergency conditions, stay indoors
 
 ## 📊 Dataset
 
@@ -20,19 +26,19 @@ ToolPurposePythonProgramming languagePandas & NumPyData cleaning & manipulationS
 
 ## 🧹 Data Cleaning Steps
 
-Removed 427 rows with missing Country values
-Removed 1 row with missing City value
-Stripped extra whitespace from text columns
-Dropped unnecessary AQI category text columns
-Label encoded the target column into 6 numeric classes
-Filtered dataset to Pakistan only (307 cities)
+Removed 427 rows with missing Country values.
+Removed 1 row with missing City value.
+Stripped extra whitespace from text columns.
+Dropped unnecessary AQI category text columns.
+Label encoded the target column into 6 numeric classes. 
+Filtered dataset to Pakistan only (307 cities). 
 
 
 ## 📈 EDA Highlights
 
-Unhealthy is the most common AQI category across Pakistani cities
-PM2.5 has a 0.95 correlation with AQI Value, strongest predictor
-Visualizations include: category distribution, AQI histogram, PM2.5 scatter plot, and correlation heatmap
+Unhealthy is the most common AQI category across Pakistani cities.
+PM2.5 has a 0.95 correlation with AQI Value, strongest predictor.
+Visualizations include: category distribution, AQI histogram, PM2.5 scatter plot, and correlation heatmap.
 
 
 ## 🤖 Model
@@ -54,8 +60,6 @@ cd Air-Quailty-Index-Predictor-Pakistan-
 bashpip3 install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
 3. Run the app
 bashstreamlit run app.py
-4. Open in browser
-http://localhost:8501
 
 
 ## 📸 App Preview
